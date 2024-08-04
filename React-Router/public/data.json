@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "name":"Aman",
+        "class":6,
+        "phone":3402934,
+        "isActive":false
+    },
+    {
+        "id":2,
+        "name":"Joseph",
+        "class":7,
+        "phone":254244,
+        "isActive":true
+    },
+    {
+        "id":3,
+        "name":"Steffy",
+        "class":8,
+        "phone":402934,
+        "isActive":false
+    }
+]
