@@ -7,6 +7,8 @@ function Users() {
 
   const [searchParams, setSearchParams] = useSearchParams();
 
+ 
+
   const cls = searchParams.get("class");
   console.log(cls);
 

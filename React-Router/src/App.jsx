@@ -7,6 +7,7 @@ import Home from "./Pages/Home";
 import Users from "./Pages/Users";
 import Header from "./components/Header";
 import Details from "./Pages/Details";
+import NotFound from "./Pages/NotFound";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="users" element={<Users />} />
           <Route path="details/:userId" element={<Details/>} />
+          <Route path="*" element={<NotFound/>}/>
         </Routes>
       </BrowserRouter>
     </>
